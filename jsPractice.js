@@ -18,23 +18,17 @@ function makeNoise(animal){
         return 'meow'
     }
     else if(animal == 'pig' || animal == 'pigs'){
-        return 'oink'
+        return 'oink' 
     }
 }
 
-let animalHouse = ["dog","cow","pig"]
+let animalHouse = ["dog","cat","pig"]
 
-for(let i = 0; i>animalHouse.length;i++){
-    let x = i
-    let number = numberOf(x)
-    let sound = makeNoise(x)
-    console.log("My friend has " +number+" "+x+" and they say "+sound)
+for(let i = 0; i < animalHouse.length; i++){
+        let x = animalHouse[i]
+        let number = numberOf(x)
+        let sound = makeNoise(x)
+        console.log("My friend has " +number+" "+x+"(s)"+" and they say "+sound)
+        
 }
 
-
-
-
-// let x (= 'dogs')
-// let number = numberOf(x)
-// let sound = makeNoise(x)
-// console.log("My friend has " +number+" "+x+" and they say "+sound)
