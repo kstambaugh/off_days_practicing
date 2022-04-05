@@ -81,6 +81,7 @@ const dealerInventory = [car1,car2,car3]
 console.log(dealerInventory)
 
 
+
 const document = {
     body:{
         dive:{
